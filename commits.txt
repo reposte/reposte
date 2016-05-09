@@ -1,0 +1,8 @@
+Hardware keys:
+https://github.com/reposte/frameworks_base/commit/cb279fa06a6eb85229d1ae8ce9cc8c0d56af522f
+https://github.com/reposte/packages_apps_Settings/commit/012de03d07f6df1c7629d61bd6c949e72c112b0f
+https://github.com/reposte/packages_apps_Settings/commit/a3bd6ff69c9307ed9d5c7f564b0151af4fb17522
+
+Usar ril del device:
+https://github.com/reposte/hardware_ril/commit/f8228094ca738ad043be6ece4c6f90fac70ebd98
+https://github.com/reposte/android_device_xiaomi_libra/commit/27928e89ab517242545c89b709f1aee72f8267a4
