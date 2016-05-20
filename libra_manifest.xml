@@ -15,7 +15,6 @@
 
 <!-- Missing repos in manifest.xml -->
 <project name="SlimRoms/android_external_stlport" path="external/stlport" remote="github" revision="mm6.0"/>
-<project name="SlimRoms/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="mm6.0"/>
 
 <!-- JPEG -->
 <remove-project name="platform/external/jpeg"/>
