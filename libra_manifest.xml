@@ -4,7 +4,8 @@
 <!--  libra device, vendor & kernel -->
 <project name="reposte/android_device_xiaomi_libra" path="device/xiaomi/libra" remote="github" revision="mm6.0"/>
 <project name="kumajaya/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="cm-13.0"/>
-<project name="kumajaya/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="cm-13.0"/>
+<!-- <project name="kumajaya/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="cm-13.0"/> -->
+<project name="AndropaX/Resurrected-Kernel" path="kernel/xiaomi/rr" remote="github" revision="RR-6.0"/>
  
 <!-- Track our own repos 
 <remove-project name="SlimRoms/frameworks_base"/>
