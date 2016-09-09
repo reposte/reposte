@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ 
+<!--  libra device, vendor & kernel -->
+<!-- <project name="AndropaX/Resurrected-Kernel" path="kernel/xiaomi/rr" remote="github" revision="RR-6.0"/>  -->
+<!-- <project name="reposte/slim_device_xiaomi_libra" path="device/xiaomi/libra" remote="github" revision="mm6.0-slim"/> -->
+<project name="reposte/slim_device_xiaomi_libra" path="device/xiaomi/libra" remote="github" revision="mm6.0"/>
+<!-- <project name="reposte/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="mm6.0-slim"/> -->
+<project name="reposte/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="mm6.0"/>
+<!-- <project name="reposte/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="mm6.0"/> -->
+<project name="reposte/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="mm6.0-test"/>
+ 
+<!-- Track our own repos -->
+<remove-project name="SlimRoms/vendor_slim" />
+<project path="vendor/slim" name="reposte/vendor_slim" remote="github" revision="mm6.0" />
+<remove-project name="SlimRoms/frameworks_base" />
+<project name="reposte/frameworks_base" path="frameworks/base" remote="github" revision="mm6.0"/>
+<remove-project name="SlimRoms/frameworks_native" />
+<project name="reposte/frameworks_native" path="frameworks/native" remote="github" revision="mm6.0"/>
+<remove-project name="SlimRoms/packages_apps_Settings" />
+<project name="reposte/packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="mm6.0"/>
+<remove-project name="SlimRoms/packages_inputmethods_LatinIME" />
+<project name="reposte/packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="github" revision="mm6.0" />
+<remove-project name="SlimRoms/android_external_sepolicy" />
+<project path="external/sepolicy" name="reposte/android_external_sepolicy" remote="github" revision="mm6.0" />
+<remove-project name="SlimRoms/frameworks_opt_slim"/>
+<project path="frameworks/opt/slim" name="reposte/frameworks_opt_slim" remote="github" revision="mm6.0" />
+
+
+<!-- Missing repos in manifest.xml -->
+<project name="SlimRoms/android_external_stlport" path="external/stlport" remote="github" revision="mm6.0"/>
+
+<!-- JPEG 
+<remove-project name="platform/external/jpeg"/>
+<project path="external/jpeg" name="SlimRoms/android_external_jpeg" remote="github" revision="mm6.0"/>
+-->
+
+
+<!-- Remove unneeded projects -->
+<!--
+<remove-project name="SlimRoms/android_external_ant-wireless_ant_native"/> 
+<remove-project name="SlimRoms/android_external_ant-wireless_ant_service"/> 
+<remove-project name="SlimRoms/android_external_ant-wireless_antradio-library"/>
+-->
+
+
+ 
+</manifest>
