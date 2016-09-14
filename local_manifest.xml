@@ -11,6 +11,8 @@
 <project name="reposte/android_kernel_xiaomi_msm8992" path="kernel/xiaomi/msm8992" remote="github" revision="mm6.0-test"/>
  
 <!-- Track our own repos -->
+<remove-project name="SlimRoms/android_build" />
+<project path="build" name="reposte/android_build" remote="github" revision="mm6.0" />
 <remove-project name="SlimRoms/vendor_slim" />
 <project path="vendor/slim" name="reposte/vendor_slim" remote="github" revision="mm6.0" />
 <remove-project name="SlimRoms/frameworks_base" />
